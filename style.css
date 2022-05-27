@@ -1,0 +1,15 @@
+header {
+    background-color: navajowhite;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:25pz,0;
+    margin-bottom: 25px;
+
+}
+main {
+    background-color: darkkhaki;
+    color: black;
+    width: 650px;
+    padding: 25;
+    border: solid 5px rebeccapurple;
+}

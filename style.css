@@ -1,15 +1,123 @@
-header {
-    background-color: navajowhite;
-    color: rgb(0, 0, 0);
+body {
+    background-color: rgb(223, 240, 249);
+    color: black;
+}
+
+.header h1 {
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar {
+    float: right;
+    padding: 20px 20px 0px 10px;
+}
+
+.nav_links {
+    display: inline-block;
+}
+
+.menu li {
+    padding: 0 12px;
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.main-content {
+    display: block;
+}
+
+.image,
+.content {
+    display: inline-block;
+    width: 45%;
+}
+
+.image img {
+    border-radius: 40px;
+    margin-left: 50px;
+}
+
+.content {
+    vertical-align: top;
+}
+
+.content h2 {
     text-align: center;
-    padding:25pz,0;
-    margin-bottom: 25px;
+    color: red;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 3rem;
+}
+
+#previous,
+#next {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#previous:hover {
+    background-color: #fff;
+    border: 2px #008cba solid;
+    color: #008cba;
 
 }
-main {
-    background-color: darkkhaki;
-    color: black;
-    width: 650px;
-    padding: 25;
-    border: solid 5px rebeccapurple;
+
+#next:hover {
+    background-color: #fff;
+    border: 2px #f44336 solid;
+    color: #f44336;
+}
+
+#previous {
+    background-color: #008cba;
+}
+
+#next {
+    background-color: #f44336;
+}
+
+.navigation {
+    margin: auto;
+    text-align: right;
+}
+
+h1 {
+    border-bottom: 5px solid red;
+}
+
+p {
+
+    margin: 10px 5px 15px 20px;
+    padding: 35px;
+}
+.comment{
+    font-size: small;
 }
